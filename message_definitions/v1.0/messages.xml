@@ -1392,7 +1392,20 @@
       <field name="comp_id" type="uint8" values="NONE|GENERIC|IR|ICQ|ICE|FC|DCM|FINV|MLKF|GX3|CHIMU|VN"/>
     </message>
 
-    <!-- 158 is free -->
+    <message name="GUIDANCE_INDI_HYBRID" id="158">
+      <field name="sp_accel_x" type="float"/>
+      <field name="sp_accel_y" type="float"/>
+      <field name="sp_accel_z" type="float"/>
+      <field name="euler_cmd_x" type="float"/>
+      <field name="euler_cmd_y" type="float"/>
+      <field name="euler_cmd_z" type="float"/>
+      <field name="accelned_filt_x" type="float"/>
+      <field name="accelned_filt_y" type="float"/>
+      <field name="accelned_filt_z" type="float"/>
+      <field name="speed_sp_x" type="float"/>
+      <field name="speed_sp_y" type="float"/>
+      <field name="speed_sp_z" type="float"/>
+    </message>
 
     <message name="ROTORCRAFT_NAV_STATUS" id="159">
       <field name="block_time" type="uint16" unit="s"/>
